@@ -1,8 +1,8 @@
 from Tkinter import *
-from Tkinter.messagebox import showinfo
+from tkMessageBox import showinfo
 
 def reply():
-    showinfo(title='popup', message = 'OK')
+    showinfo(title='popup', message = 'Hello World')
 
 window = Tk()
 button = Button(window,text='press',command=reply)
